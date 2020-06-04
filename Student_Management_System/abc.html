@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
+    <title>Homepage</title>
+    <style>
+        .line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 22.4em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255, 255, 255, 0.75);}
+  to{border-right-color: transparent;}
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            
+            <span class="heading" style="font-size: 25px;"><br><br><p class="line-1 anim-typewriter">Sarvajanik College Of Engineering And Technology</p></span>
+        </div>
+        <div>
+            <marquee>This site represents  student perfomance analysis System and Project management system</marquee>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="admin_login.php">Admin Login</a>
+                </li>
+                <li>
+                    <a href="student_login.php">Student Login</a>
+                </li>
+                <li>
+                    <a href="project.php">Projects</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="slider">
+            <img src="college.jpg" class="slider-image" alt="img">
+        </div>
+ 
+        <div class="main" style="color: rgb(205, 240, 247);">
+            <br>
+            <br>
+            <span style="font-weight: bold;font-size: 30px;">About the University</span>
+            <p>Sarvajanik College of Engineering and Technology is one of the prime Institutions offering technical education in field of Engineering & MCA. Both the courses are affiliated with the Gujarat Technological University, Chandkheda approved by AICTE, New Delhi.Our vision is To evolve into a shrine of excellence in technical education & research and an aspiring place for engineering education seekers and educators. We commit to produce knowledge workers, stimulated by discipline, professional ethics, continuous learning, leadership skills and elevated morals, striving towards progressive civilization.</p>
+            <div class="info">
+              
+                <div>
+                    <span style="color: rgb(238, 160, 238);">Our Mission</span> <hr>
+                    <p><ul>
+                        <li>To achieve high student performance and overall organizational learning by continuously upgrading technical knowledge and enhancing professional as well as teaching skills of faculties and o provide state-of-the-art infrastructure and services to the students and staff..</li>
+                        
+                    </ul></p>
+                </div>
+                <div>
+                    <span style="color: rgb(238, 160, 238);"></span>
+                </div>
+                <div>
+                    <span style="color: rgb(238, 160, 238);"></span>
+                </div>
+                <div>
+                    <span style="color: rgb(238, 160, 238);">News And Notice Board</span> <hr>
+                    <marquee behavior="scroll" direction="up"><a href="https://scet.ac.in/practical-exam-time-table-may-june-2020" style="text-decoration: none;color: rgb(208, 236, 208);">Practical Exam Time Table – May-June 2020</a><br><br><br>                        
+                        <a href="https://www.youtube.com/watch?v=6IsZUp5OIYY&feature=youtu.be" style="text-decoration: none;color: rgb(208, 236, 208);">Message from GTU VC Prof. Navin Sheth during Covid-19 Pandemic</a><br><br><br>
+                        <a href="https://scet.ac.in/saa" style="text-decoration: none;color: rgb(208, 236, 208);">Scholarship available for students</a><br><br><br></marquee>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="footer" style="background-color: rgb(255, 217, 0);color: blue;">
+            <div class="footer--contact">
+                <span>Contact Us</span>
+                <p>Mycollege1234@gmail.com</p>
+                <p>+91-9723210021</p>
+            </div>
+            <div class="footer--info">
+                <span>Important Links</span>
+                <a href="#">Home</a>
+                <a href="admin_login.php">Admin Login</a>
+                <a href="student_login.php">Student Login</a>
+                <a href="project.php">Projects</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
